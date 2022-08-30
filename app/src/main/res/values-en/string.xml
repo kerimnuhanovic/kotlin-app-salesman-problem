@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about">The application "Trade Traveler" was written in the Kotlin programming language.
+        The application contains sections where you can add cities with latitudes and lognitudes.
+        It also allows you to print the largest path from the home city (the city that was added first) and other cities.
+        It also allows you to view additional information about the city, and view the city on a map.
+        After calculating the shortest route, it is also possible to display this route on a map.</string>
+    <string name="dodaj_grad">Add city</string>
+    <string name="grad">City:</string>
+    <string name="longituda">Longitude: </string>
+    <string name="lantituda">Latitude: </string>
+    <string name="naslovRecycleView">List of cities</string>
+    <string name="naziv_grada">City name:</string>
+    <string name="dr_ava">Country:</string>
+    <string name="o_aplikaciji">About app</string>
+    <string name="grad_hint">City</string>
+    <string name="dr_ava_hint">Country</string>
+    <string name="kratak_opis_hint">Short description</string>
+    <string name="latituda_hint">Latitude</string>
+    <string name="longituda_hint">Longitude</string>
+    <string name="dodaj_grad_hint">Add city</string>
+    <string name="radili">Developed by: Kerim Nuhanović i Purak Muhamed\nProfessor: prof. dr. Elmedin Selmanović</string>
+    <string name="o_aplikaciji_header">About app</string>
+    <string name="najkra_i_put">Shortest path</string>
+    <string name="listaGradova">List of cities</string>
+
+
+
+</resources>

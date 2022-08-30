@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/titleFragment2">
+    <fragment
+        android:id="@+id/titleFragment2"
+        android:name="com.example.salesmanproblemproject.TitleFragment"
+        android:label="Najkraci put app" >
+        <action
+            android:id="@+id/action_titleFragment2_to_listaGradovaFragment2"
+            app:destination="@id/listaGradovaFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popUpTo="@id/titleFragment2"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/listaGradovaFragment"
+        android:name="com.example.salesmanproblemproject.ListaGradovaFragment"
+        android:label="@string/listaGradova" >
+        <action
+            android:id="@+id/action_listaGradovaFragment_to_dodajGradFragment"
+            app:destination="@id/dodajGradFragment" />
+        <action
+            android:id="@+id/action_listaGradovaFragment_to_gradDetaljiFragment"
+            app:destination="@id/gradDetaljiFragment" />
+        <action
+            android:id="@+id/action_listaGradovaFragment_to_najkraciPutFragment"
+            app:destination="@id/najkraciPutFragment" />
+        <action
+            android:id="@+id/action_listaGradovaFragment_to_OAplikaciji"
+            app:destination="@id/OAplikaciji" />
+    </fragment>
+    <fragment
+        android:id="@+id/dodajGradFragment"
+        android:name="com.example.salesmanproblemproject.DodajGradFragment"
+        android:label="Dodaj grad" >
+        <action
+            android:id="@+id/action_dodajGradFragment_to_listaGradovaFragment"
+            app:destination="@id/listaGradovaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gradDetaljiFragment"
+        android:name="com.example.salesmanproblemproject.GradDetaljiFragment"
+        android:label="Detalji grada"
+        >
+        <argument
+            android:name="grad"
+            app:argType="com.example.salesmanproblemproject.database.GradDB" />
+        <action
+            android:id="@+id/action_gradDetaljiFragment_to_listaGradovaFragment"
+            app:destination="@id/listaGradovaFragment" />
+        <action
+            android:id="@+id/action_gradDetaljiFragment_to_prikazGrada"
+            app:destination="@id/prikazGrada" />
+    </fragment>
+    <fragment
+        android:id="@+id/najkraciPutFragment"
+        android:name="com.example.salesmanproblemproject.NajkraciPutFragment"
+        android:label="Najkraći put" >
+        <argument
+            android:name="niz"
+            app:argType="com.example.salesmanproblemproject.ListaGradova" />
+        <action
+            android:id="@+id/action_najkraciPutFragment_to_prikaziPut"
+            app:destination="@id/prikaziPut" />
+    </fragment>
+    <fragment
+        android:id="@+id/prikazGrada"
+        android:name="com.example.salesmanproblemproject.PrikazGrada"
+        android:label="Prikaz grada"
+        tools:layout="@layout/fragment_prikaz_grada" >
+        <argument
+            android:name="lat"
+            app:argType="string" />
+        <argument android:name="lon"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/prikaziPut"
+        android:name="com.example.salesmanproblemproject.PrikaziPut"
+        android:label="Najkraći put"
+        tools:layout="@layout/fragment_prikazi_put" >
+        <argument
+            android:name="lista"
+            app:argType="com.example.salesmanproblemproject.ListaGradova" />
+    </fragment>
+    <fragment
+        android:id="@+id/OAplikaciji"
+        android:name="com.example.salesmanproblemproject.algoritam.OAplikaciji"
+        android:label="@string/o_aplikaciji" />
+</navigation>

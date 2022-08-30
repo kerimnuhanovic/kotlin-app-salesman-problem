@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/plava_secondary_light"
+    android:padding="24dp"
+    android:id="@+id/okvirReda"
+    android:layout_marginBottom="10dp">
+
+    <TextView
+        android:id="@+id/Grad"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Mostar"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+    <TextView
+        android:id="@+id/Drzava"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Bosna i Hercegovina"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/Grad"
+        android:textSize="16dp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="8dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/latituda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="latituda"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/Grad"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <TextView
+        android:id="@+id/longituda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Longituda"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/latituda"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp"/>
+
+
+    <!--
+    <TextView
+        android:id="@+id/breakline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/breakline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        android:background="@color/white"/>-->
+</androidx.constraintlayout.widget.ConstraintLayout>

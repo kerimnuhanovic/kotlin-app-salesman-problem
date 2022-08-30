@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">SalesmanProblemProject</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="naslovRecycleView">Lista gradova</string>
+    <string name="naziv_grada">Naziv grada:</string>
+    <string name="dr_ava">Država:</string>
+    <string name="breakline">--------------------------------------------------------------------------------------------------</string>
+    <string name="dodaj_grad">Dodaj grad</string>
+    <string name="grad">Grad:</string>
+    <string name="longituda">Longituda</string>
+    <string name="lantituda">Longituda</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="about">Aplikacija „Trgovački putnik“ je napisana u progrmskom jeziku Kotlin.
+        Aplikacija sadrži dijelove u kojima možete dodavati gradove sa latitudama i lognitudama.
+        Takođe omogućava i ispis najkraćeg puta od početnog grada(grada koji je prvi dodan) i ostalih gradova.
+        Takođe omogućava prikaz dodatih informacija o gradu, te prikaz grada na mapi.
+        Nakon izračunavanja najkraćeg puta takođe je moguće i prikazati taj put na mapi.</string>
+    <string name="radili">Radili: Kerim Nuhanović i Purak Muhamed\nProfesor: prof. dr. Elmedin Selmanović</string>
+    <string name="o_aplikaciji">O aplikaciji</string>
+    <string name="grad_hint">Grad</string>
+    <string name="dr_ava_hint">Država</string>
+    <string name="kratak_opis_hint">Kratak opis</string>
+    <string name="latituda_hint">latituda</string>
+    <string name="longituda_hint">longituda</string>
+    <string name="dodaj_grad_hint">Dodaj grad</string>
+    <string name="najkra_i_put">Najkraći put</string>
+    <string name="o_aplikaciji_header">O aplikaciji</string>
+    <string name="listaGradova">Lista gradova</string>
+</resources>

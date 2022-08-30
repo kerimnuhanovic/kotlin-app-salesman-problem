@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.jakewharton.timber:timber:5.0.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0458c414567aeb3ee7a6633de5911fe9/transformed/timber-5.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b85ad0f93061fe504807f93e917dd4e2/transformed/timber-5.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f0c5c6659cb36779d11aadd0e7c88d6b/transformed/timber-5.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f0c5c6659cb36779d11aadd0e7c88d6b/transformed/timber-5.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f0c5c6659cb36779d11aadd0e7c88d6b/transformed/timber-5.0.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jakewharton.timber/timber/5.0.1/264c7cc6aa44f3b596075cbb19b2712f364d4c7e/timber-5.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jakewharton.timber/timber/5.0.1/836490fe0746598a87d74a9d715c61c1a2094623/timber-5.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
